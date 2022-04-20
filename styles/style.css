@@ -366,11 +366,14 @@ svg {
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
   border-radius: 2rem;
+  margin-bottom: 3rem;
 }
 
 .form-section form input,
 .form-section form textarea {
   margin: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .form-section form input:focus,
@@ -380,7 +383,7 @@ svg {
 
 .form-section form textarea {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .form-section form button {
@@ -524,7 +527,8 @@ footer ul li {
     height: 100%;
   }
   form {
-    padding: 0rem;
+    padding: 2rem;
+    margin: 2rem;
     width: 100%;
   }
 }
