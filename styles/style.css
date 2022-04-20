@@ -323,6 +323,13 @@ svg {
   text-align: center;
 }
 
+.travelly p,
+.elena p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
 .form-section {
   min-height: 80vh;
   display: -webkit-box;
